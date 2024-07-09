@@ -1,0 +1,31 @@
+
+.home {
+
+  //
+  // Header
+  // --------------------------------------------------
+
+  .masthead {
+    #masthead-meta {
+      padding: 12px 0;
+      .branding {
+        font-size: 3.5em;
+        margin: 0;
+        text-align: center;
+      }
+    }
+    #mini-navigation {
+      border-top: 2px solid $brand-primary;
+      padding: 4px 60px;
+      border-bottom: 1px solid $gray-light;
+      .nav {
+        li {
+          a {
+            margin: 5px 2px 5px 0;
+            padding: 0 4px;
+          }
+        }
+      }
+    }
+  }
+}

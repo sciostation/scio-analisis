@@ -1,0 +1,68 @@
+
+.category {
+
+  //
+  // Commons
+  // --------------------------------------------------
+  section {
+    border-bottom: none;
+  }
+
+  //
+  // Header
+  // --------------------------------------------------
+
+  .masthead {
+    #masthead-cap {
+      border-bottom: 1px solid $gray-light;
+    }
+    .branding {
+      font-size: 2em;
+      padding-top: 5px;
+      margin: 0;
+    }
+    #masthead-meta {
+      font-family: $font-family-sans-serif;
+      padding: 35px 0 10px 0;
+      h1, h3 {
+        font-weight: bolder;
+      }
+      h1 {
+        font-size: 3.5em;
+      }
+      h3 {
+        font-size: 1em;
+        margin: 0;
+        text-transform: uppercase;
+      }
+      .kicker-container {
+        min-height: 20px;
+      }
+    }
+    #mini-navigation {
+      font-family: $font-family-sans-serif;
+      text-transform: uppercase;
+      border-top: 1px solid $gray-light;
+      border-bottom: 2px solid $brand-primary;
+      padding: 5px 0;
+      height: 34px;
+      .nav {
+        li {
+          a {
+            font-size: 0.8em;
+            margin: 5px 2px 5px;
+            padding: 0 5px 0 0;
+            display: inline;
+            &:hover, &:focus {
+              background-color: transparent;
+              text-decoration: underline;
+            }
+          }
+        }
+        li + li:before {
+          content: " | ";
+        }
+      }
+    }
+  }
+}
